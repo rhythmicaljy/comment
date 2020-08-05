@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: comment
-          image: username/comment:latest
+          image: 052937454741.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-skccuser5-comment:v1
           ports:
             - containerPort: 8080
           readinessProbe:
